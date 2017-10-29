@@ -2,7 +2,8 @@
 First project using HTMl, CSS, and jQuery. 
 Goal of this project is to view team rosters
 of players in the NBA with their image and 
-stats. 
+stats. At the moment, only teams from the
+Western Conference are viewable. 
 
 To view the HTML file, download the bundle and 
 open nba_rosters.html within the folder unzipped 
