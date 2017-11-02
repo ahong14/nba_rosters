@@ -1,0 +1,807 @@
+body{
+	background-color: grey;
+}
+
+
+.wrapper{
+position : relative;
+
+
+
+
+}
+
+.header{
+	margin : auto;
+	height : 400px;
+	position: relative;
+}
+
+
+#title{
+	text-align: center;
+	position : relative;
+
+}
+
+.home_button{
+	z-index: 1;
+	display:inline-block;
+	position : fixed;
+	top:0;
+	left:0;
+	border: 4px solid black;
+	color:white;
+	background-color: black;
+	width:85px;
+	height : 40px;
+	text-align: center;
+	font-size : 20px;
+	font-family: arial;
+}
+
+#nba_logo {
+	display : block;
+	height : 330px;
+	width: 400px;
+	margin: auto;
+
+}
+
+.western_conf{
+	position : relative;
+	margin-left : 180px;
+	border : 3px solid black;
+	display: inline-block;
+	
+}
+
+#west_title{
+
+	display : inline-block;
+	margin-left: 40px;
+	font-size: 30px;
+
+}
+
+#west_logo{
+	position : absolute;
+	height : 80px;
+	width: 65px;
+	margin-left: 10px;
+	margin-bottom : 10px;
+}
+
+
+
+ul{
+	list-style-type: none;
+}
+
+
+a{
+	text-decoration: none;
+	
+}
+
+a:visited{
+	color:blue;
+}
+
+
+.navbar_title{
+	display: inline-block;
+
+}
+
+.navbar_title ul{
+
+	cursor: none;
+}
+
+
+
+
+.navbar_elements{
+	padding: 0;
+	margin: 0;
+	width : 200px;
+}
+
+
+
+
+
+.division_title{
+	font-size: 20px;
+	font-weight: bold;
+
+}
+
+.division_title:hover{
+	
+	text-decoration: underline;
+	cursor: pointer;
+
+}
+
+.item{
+	font-size: 18px;
+}
+
+#pacific_teams{
+	opacity: 0;
+}
+
+/*
+#pacific:hover #pacific_teams{
+	visibility: visible;
+}
+
+*/
+#warriors_nav:hover{
+	color: blue;
+	text-decoration: underline;
+	font-weight: bold;
+}
+
+#lakers_nav:hover{
+	color: blue;
+	text-decoration: underline;
+	font-weight: bold;
+}
+
+#clippers_nav:hover{
+	color: blue;
+	text-decoration: underline;
+	font-weight: bold;
+}
+
+#kings_nav:hover{
+	color: blue;
+	text-decoration: underline;
+	font-weight: bold;
+}
+
+#suns_nav:hover{
+	color: blue;
+	text-decoration: underline;
+	font-weight: bold;
+}
+
+
+#northwest_teams{
+	opacity: 0;
+}
+
+/*
+#northwest:hover #northwest_teams{
+	visibility: visible;
+}
+*/
+
+#thunder_nav:hover{
+	color: blue;
+	text-decoration: underline;
+	font-weight: bold;
+}
+
+#trailblazers_nav:hover{
+	color: blue;
+	text-decoration: underline;
+	font-weight: bold;
+}
+
+#nuggets_nav:hover{
+	color: blue;
+	text-decoration: underline;
+	font-weight: bold;
+}
+
+#jazz_nav:hover{
+	color: blue;
+	text-decoration: underline;
+	font-weight: bold;
+}
+
+#timberwolves_nav:hover{
+	color: blue;
+	text-decoration: underline;
+	font-weight: bold;
+}
+
+#southwest_teams{
+	opacity: 0;
+}
+
+/*
+#southwest:hover #southwest_teams{
+	visibility: visible;
+}
+*/
+
+#spurs_nav:hover{
+	color: blue;
+	text-decoration: underline;
+	font-weight: bold;
+}
+
+#mavericks_nav:hover{
+	color: blue;
+	text-decoration: underline;
+	font-weight: bold;
+}
+
+#rockets_nav:hover{
+	color: blue;
+	text-decoration: underline;
+	font-weight: bold;
+}
+
+#grizzlies_nav:hover{
+	color: blue;
+	text-decoration: underline;
+	font-weight: bold;
+}
+
+#pelicans_nav:hover{
+	color: blue;
+	text-decoration: underline;
+	font-weight: bold;
+}
+
+
+
+
+
+.eastern_conference{
+	position: absolute;
+	display: inline-block;
+	margin-left:100px;
+	width: 648px;
+	border : 3px solid black;
+}
+
+#east_navbar{
+	margin-left:50px;
+	
+}
+
+#east_title{
+	display : inline-block;
+	margin-left: 40px;
+	font-size: 30px
+}
+
+
+#east_logo{
+	position : absolute;
+	height : 80px;
+	width: 65px;
+	margin-left: 10px;
+	margin-bottom : 10px;
+}
+
+#atlantic_teams{
+	opacity: 0;
+}
+
+/*
+#atlantic:hover #atlantic_teams{
+	visibility: visible;
+}
+*/
+
+#atlantic{
+	margin-left:-50px;
+}
+
+#raptors_nav:hover{
+	color: blue;
+	text-decoration: underline;
+	font-weight: bold;
+}
+
+#celtics_nav:hover{
+	color: blue;
+	text-decoration: underline;
+	font-weight: bold;
+}
+
+#nets_nav:hover{
+	color: blue;
+	text-decoration: underline;
+	font-weight: bold;
+}
+
+#knicks_nav:hover{
+	color: blue;
+	text-decoration: underline;
+	font-weight: bold;
+}
+
+#sixers_nav:hover{
+	color: blue;
+	text-decoration: underline;
+	font-weight: bold;
+}
+
+#southeast_teams{
+	opacity : 0;
+}
+
+/*
+#southeast:hover #southeast_teams{
+	visibility: visible;
+}
+*/
+
+#heat_nav:hover{
+	color: blue;
+	text-decoration: underline;
+	font-weight: bold;
+}
+
+#wizards_nav:hover{
+	color: blue;
+	text-decoration: underline;
+	font-weight: bold;
+}
+
+#magic_nav:hover{
+	color: blue;
+	text-decoration: underline;
+	font-weight: bold;
+}
+
+#hornets_nav:hover{
+	color: blue;
+	text-decoration: underline;
+	font-weight: bold;
+}
+
+#hawks_nav:hover{
+	color: blue;
+	text-decoration: underline;
+	font-weight: bold;
+}
+
+#central_teams{
+	opacity : 0;
+}
+
+/*
+#central:hover #central_teams{
+	visibility: visible;
+}
+*/
+
+#cavs_nav:hover{
+	color: blue;
+	text-decoration: underline;
+	font-weight: bold;
+}
+
+#pacers_nav:hover{
+	color: blue;
+	text-decoration: underline;
+	font-weight: bold;
+}
+
+#pistons_nav:hover{
+	color: blue;
+	text-decoration: underline;
+	font-weight: bold;
+}
+
+#bulls_nav:hover{
+	color: blue;
+	text-decoration: underline;
+	font-weight: bold;
+}
+
+#bucks_nav:hover{
+	color: blue;
+	text-decoration: underline;
+	font-weight: bold;
+}
+
+/*end of navbar */
+
+
+
+/* team rosters */
+
+.team_rosters{
+	position:relative;
+	margin-top: 100px;
+}
+
+.rosters{
+	margin-left: 230px;
+	font-size: 40px;
+	text-decoration: underline;
+
+}
+
+
+.team_title{
+
+	display : inline-block;
+	margin-left: 230px;
+	font-size: 30px;
+
+
+}
+/*
+#warriors_logo{
+	position : absolute;
+	height : 80px;
+	width: 65px;
+	margin-left: 10px;
+	margin-bottom : 10px;
+}
+*/
+
+
+.team_logo{
+	position : absolute;
+	height : 80px;
+	width: 65px;
+	margin-left: 10px;
+	margin-bottom : 10px;
+
+}
+
+.team_clear{
+	clear:both;
+}
+
+.player_infos{
+	margin-left: 50px;
+}
+
+
+
+.player{
+
+	float: left;
+	white-space: nowrap;
+}
+
+
+.player li{
+	font-weight : bold;
+	display: none;
+
+}
+
+.sixth{
+	clear:both;
+}
+
+.player_image{
+	height : 190px;
+	width:240px;
+}
+
+.player_image:hover{
+	cursor: pointer;
+}
+
+.player_name{
+	font-weight: bold;
+	font-size: 18px;
+}
+
+/*
+#lakers{
+	clear: both;
+}
+*/
+
+#lakers_logo{
+	position : absolute;
+	height : 100px;
+	width: 70px;
+	margin-left: 10px;
+	margin-bottom : 15px;
+
+}
+
+/*
+#clippers{
+	clear:both;
+}
+*/
+/*
+#clippers_logo{
+	position : absolute;
+	height : 80px;
+	width: 65px;
+	margin-left: 10px;
+	margin-bottom : 10px;
+
+}
+*/
+/*
+#kings{
+	clear:both;
+}
+*/
+/*
+#kings_logo{
+	position : absolute;
+	height : 80px;
+	width: 65px;
+	margin-left: 10px;
+	margin-bottom : 10px;
+
+}
+*/
+
+/*
+#suns{
+	clear:both;
+}
+*/
+
+/*
+#suns_logo{
+	position : absolute;
+	height : 80px;
+	width: 70px;
+	margin-left: 10px;
+	margin-bottom : 10px;
+
+}
+*/
+
+/*
+<!-- start of timberwolves roster -->
+
+		<div class="team_clear" id="">
+
+			<div class= "team_header" >
+
+			<h1 class="team_title">  </h1>
+
+			<img class="team_logo" id="" src="" />
+			</div>
+
+				<div class= "player_infos">
+				<!-- every 5 players break new line -->
+				<ul class="player">
+
+				<img class="player_image" src = ""/>
+				<p class="player_name"> </p>
+				<li> Name:  </li>
+				<li> Height:  </li>
+				<li> Weight:  </li>
+				<li> College/Draft Team: 
+				<li> Position:  </li>
+				<li> Years Pro: </li>
+
+				</ul>
+
+
+
+
+				<ul class="player">
+
+				<img class="player_image" src = "" />
+				<p class="player_name">  </p>
+				<li> Name:  </li>
+				<li> Height: </li>
+				<li> Weight: </li>
+				<li> College/Draft Team: 
+				<li> Position:  </li>
+				<li> Years Pro: </li>
+
+				</ul>
+
+
+				<ul class="player">
+
+				<img class="player_image" src = ""/>
+				<p class="player_name">  </p>
+				<li> Name:  </li>
+				<li> Height: </li>
+				<li> Weight: </li>
+				<li> College/Draft Team: 
+				<li> Position:  </li>
+				<li> Years Pro: </li>
+
+				</ul>
+
+				<ul class="player">
+
+				<img class="player_image" src = ""/>
+				<p class="player_name">  </p>
+				<li> Name:  </li>
+				<li> Height: </li>
+				<li> Weight: </li>
+				<li> College/Draft Team: 
+				<li> Position: </li>
+				<li> Years Pro: </li>
+
+				</ul>
+
+
+				<ul class="player" >
+
+				<img class="player_image" src = ""/>
+				<p class="player_name">  </p>
+				<li> Name:  </li>
+				<li> Height: </li>
+				<li> Weight: </li>
+				<li> College/Draft Team: 
+				<li> Position:  </li>
+				<li> Years Pro: </li>
+
+				</ul>
+
+
+			
+
+		
+				<!--after every 5th player place next one to new line -->
+
+				<ul class="player sixth">
+
+				<img class="player_image" src = ""/>
+				<p class="player_name">  </p>
+				<li> Name: </li>
+				<li> Height: </li>
+				<li> Weight: </li>
+				<li> College/Draft Team: 
+				<li> Position:  </li>
+				<li> Years Pro: </li>
+
+				</ul>
+
+
+				<ul class="player">
+
+				<img class="player_image" src = ""/>
+				<p class="player_name"> </p>
+				<li> Name:  </li>
+				<li> Height:  </li>
+				<li> Weight:  </li>
+				<li> College/Draft Team: 
+				<li> Position:  </li>
+				<li> Years Pro: </li>
+
+				</ul>
+
+
+
+
+				<ul class="player">
+
+				<img class="player_image" src = "" />
+				<p class="player_name">  </p>
+				<li> Name:  </li>
+				<li> Height: </li>
+				<li> Weight: </li>
+				<li> College/Draft Team: 
+				<li> Position:  </li>
+				<li> Years Pro: </li>
+
+				</ul>
+
+
+				<ul class="player">
+
+				<img class="player_image" src = ""/>
+				<p class="player_name">  </p>
+				<li> Name:  </li>
+				<li> Height: </li>
+				<li> Weight: </li>
+				<li> College/Draft Team: 
+				<li> Position:  </li>
+				<li> Years Pro: </li>
+
+				</ul>
+
+				<ul class="player">
+
+				<img class="player_image" src = ""/>
+				<p class="player_name">  </p>
+				<li> Name:  </li>
+				<li> Height: </li>
+				<li> Weight: </li>
+				<li> College/Draft Team: 
+				<li> Position: </li>
+				<li> Years Pro: </li>
+
+				</ul>
+
+
+				<!--after every 5th player place next one to new line -->
+
+				<ul class="player sixth">
+
+				<img class="player_image" src = ""/>
+				<p class="player_name">  </p>
+				<li> Name: </li>
+				<li> Height: </li>
+				<li> Weight: </li>
+				<li> College/Draft Team: 
+				<li> Position:  </li>
+				<li> Years Pro: </li>
+
+				</ul>
+
+				<ul class="player">
+
+				<img class="player_image" src = ""/>
+				<p class="player_name"> </p>
+				<li> Name:  </li>
+				<li> Height:  </li>
+				<li> Weight:  </li>
+				<li> College/Draft Team: 
+				<li> Position:  </li>
+				<li> Years Pro: </li>
+
+				</ul>
+
+
+
+
+				<ul class="player">
+
+				<img class="player_image" src = "" />
+				<p class="player_name">  </p>
+				<li> Name:  </li>
+				<li> Height: </li>
+				<li> Weight: </li>
+				<li> College/Draft Team: 
+				<li> Position:  </li>
+				<li> Years Pro: </li>
+
+				</ul>
+
+
+				<ul class="player">
+
+				<img class="player_image" src = ""/>
+				<p class="player_name">  </p>
+				<li> Name:  </li>
+				<li> Height: </li>
+				<li> Weight: </li>
+				<li> College/Draft Team: 
+				<li> Position:  </li>
+				<li> Years Pro: </li>
+
+				</ul>
+
+				<ul class="player">
+
+				<img class="player_image" src = ""/>
+				<p class="player_name">  </p>
+				<li> Name:  </li>
+				<li> Height: </li>
+				<li> Weight: </li>
+				<li> College/Draft Team: 
+				<li> Position: </li>
+				<li> Years Pro: </li>
+
+				</ul>
+
+
+		
+
+
+
+				</div>
+				<!-- end of player infos -->	
+
+
+
+		</div>
+		<!-- end of  roster -->
+
+
+
+*/
